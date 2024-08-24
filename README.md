@@ -1,2 +1,2 @@
 # florabot-plugin-Fortune
-florabot的插件Fortune
+这是一个[florabot](https://github.com/AEBC08/FloraBot)插件
