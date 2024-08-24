@@ -1,0 +1,10 @@
+{
+    "PluginName": "今日运势",
+    "DependentLibraries": null,
+    "IsLibraries": false,
+    "PluginIcon": null,
+    "PluginAuthor": "无常",
+    "MainPyName": "fortune",
+    "PluginDescription": "一个多功能的插件",
+    "EnablePlugin": true
+}
