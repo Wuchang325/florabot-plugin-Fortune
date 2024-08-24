@@ -1,6 +1,5 @@
 # florabot-plugin-Fortune
 这是一个[florabot](https://github.com/AEBC08/FloraBot)插件
-从Releases下载.zip解压到plugin文件夹下即可
 ## 命令
 
 ```Shell
