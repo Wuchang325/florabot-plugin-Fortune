@@ -3,6 +3,7 @@ import json
 
 flora_api = {}  # 顾名思义,FloraBot的API,载入(若插件已设为禁用则不载入)后会赋值上
 plugin_name = "今日运势"
+plugin_viasion = "V1.0.1"
 
 def occupying_function(*values):  # 该函数仅用于占位,并没有任何意义
     pass
@@ -15,7 +16,7 @@ def init():  # 插件初始化函数,在载入(若插件已设为禁用则不载
     global send_msg
     print(flora_api)
     send_msg = flora_api.get("SendMsg")
-    print(plugin_name, "加载成功")
+    print(plugin_name, plugin_viasion,"加载成功")
 
 
 def api_update_event():  # 在API更新时会调用一次(若插件已设为禁用则不调用),可及时获得最新的API内容,无传入参数
@@ -57,4 +58,4 @@ def event(data: dict):  # 事件函数,FloraBot每收到一个事件都会调用
             data_dict = response_crazy_thursday.json()
             send_msg(f"[CQ:at,qq={uid}]\n{data_dict["data"]["text"]}", uid, gid, mid)
         if msg == "#.帮助":
-            send_msg(f"[CQ:at,qq={uid}]\n{plugin_name} 插件\n----------------\n命令：\n#今日运势 查看今日的运势（仅娱乐）\n#一言 获取一言\n#二次元图片 返回随机二次元图片\n#二次元头像 返回随机的二次元头像\n#疯狂星期四 获取疯狂星期四文案\n----------------", uid, gid, mid)
+            send_msg(f"[CQ:at,qq={uid}]\n{plugin_name}{plugin_viasion} 插件\n----------------\n命令：\n#今日运势 查看今日的运势（仅娱乐）\n#一言 获取一言\n#二次元图片 返回随机二次元图片\n#二次元头像 返回随机的二次元头像\n#疯狂星期四 获取疯狂星期四文案\n----------------", uid, gid, mid)
