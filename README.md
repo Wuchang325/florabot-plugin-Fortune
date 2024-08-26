@@ -1,5 +1,5 @@
 # florabot-plugin-Fortune
-这是一个[florabot](https://github.com/AEBC08/FloraBot)插件
+这是一个[FloraBot](https://github.com/AEBC08/FloraBot)插件
 ## 命令
 
 1. 查看今日运势
