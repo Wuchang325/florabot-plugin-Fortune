@@ -57,4 +57,4 @@ def event(data: dict):  # 事件函数,FloraBot每收到一个事件都会调用
             data_dict = response_crazy_thursday.json()
             send_msg(f"[CQ:at,qq={uid}]\n{data_dict["data"]["text"]}", uid, gid, mid)
         if msg == "#.帮助":
-            send_msg(f"[CQ:at,qq={uid}]\n{plugin_name} 插件\n----------------\n命令：\n#今日运势 查看今日的运势（仅娱乐）\n#一言 获取一言\n#二次元图片 返回随机二次元图片\n#二次元头像 返回随机的二次元头像\n----------------", uid, gid, mid)
+            send_msg(f"[CQ:at,qq={uid}]\n{plugin_name} 插件\n----------------\n命令：\n#今日运势 查看今日的运势（仅娱乐）\n#一言 获取一言\n#二次元图片 返回随机二次元图片\n#二次元头像 返回随机的二次元头像\n#疯狂星期四 获取疯狂星期四文案\n----------------", uid, gid, mid)
