@@ -1,4 +1,4 @@
-# florabot-plugin-Fortune
+# FloraBot-plugin-Fortune
 这是一个[FloraBot](https://github.com/AEBC08/FloraBot)插件
 ## 命令
 
