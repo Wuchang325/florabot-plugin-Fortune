@@ -1,5 +1,6 @@
 # FloraBot-plugin-Fortune
-这是一个[FloraBot](https://github.com/AEBC08/FloraBot)插件
+这是一个[FloraBot](https://github.com/FloraBotTeam/FloraBot)插件 v1.11
+接口失效，本插件不再维护
 ## 命令
 
 1. 查看今日运势
